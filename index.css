@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 *{
-    border:1px solid black;
     max-width:100%;
     font-family: 'Roboto Mono', monospace;
 }
@@ -10,6 +9,11 @@
 nav{
     display:block;
     width:100%;
+    height:100px;
+}
+
+.top_buttons{
+    margin-top:50px;
 }
 
 .first{
@@ -18,6 +22,8 @@ nav{
     padding: 10px;
     height:200px;
     margin-left:10%;
+    text-decoration:none;
+    color:white;
 }
 
 .second{
@@ -26,6 +32,8 @@ nav{
     padding: 10px;
     height:200px;
     margin-left:10%;
+    text-decoration:none;
+    color:white;
 }
 
 .third{
@@ -34,28 +42,46 @@ nav{
     padding: 10px;
     height:200px;
     margin-left:10%;
+    text-decoration:none;
+    color:white;
+}
+
+header{
+    padding:10px;
+    height:300px;
+    width:100%;
+}
+
+.title{
+    font-family: 'Chelsea Market', cursive;
+    padding-left:400px;
+    position:relative;
+    top:-200px;
 }
 
 .profilepic{
     margin:10px;
     padding:10px;
-    height:100px;
-    width:100px;
+    height:200px;
+    width:200px;
     border-radius:50%;
     overflow:hidden;
     position:relative;
-    top:100px;
-    left:100px;
+    top:10px;
+    left:10px;
 }
 
 .profilepic img{
-    height:150px;
-    width:150px;
+    height:200px;
+    width:200px;
+    border-radius:50%;
 }
 
-h1{
-    font-family: 'Chelsea Market', cursive;
-    margin-left:60%;
+.first_sentence{
+    margin-left:400px;
+    margin-right:10px;
+     position:relative;
+    top:-200px;
 }
 
 .advert{
@@ -64,36 +90,34 @@ h1{
     text-align:center;
     margin-left:20px;
     margin-right:20px;
-}
-
-.first_sentence{
-    margin-left:500px;
-    margin-right:10px;
+    padding:10px;
 }
 
 .fire_logo{
     display:inline-block;
-    height:50px;
+    height:100px;
     width:100%;
     text-align:center;
     border-radius:10px;
+    padding-top:10px;
     margin:0 auto;
 }
 
 .fire_logo img{
-    height:50px;
-    width:50px;
+    height:100px;
+    width:100px;
 }
 
 .fire_text{
     height:200px;
     width:500px;
     margin:0 auto;
+    text-align:center;
 }
 
 .camper{
     display:inline-block;
-    height:50px;
+    height:100px;
     width:100%;
     text-align:center;
     border-radius:10px;
@@ -101,31 +125,33 @@ h1{
 }
 
 .camper img{
-    height:50px;
-    width:50px;
+    height:100px;
+    width:100px;
 }
 
 .camper_text{
     height:200px;
     width:500px;
     margin:0 auto;
+    text-align:center;
 }
 
 .banner{
-    height:20px;
+    height:350px;
     width:100%;
-
 }
 
 .banner img{
-    height:500px;
+    height:400px;
     width:100%;
 }
 
 footer{
     background-color:#F9E7DC;
+    height:200px;
 }
 
 .bottom_buttons{
-    margin:0 auto;
+    margin-top:50px;
+    padding-top:50px;
 }
